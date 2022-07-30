@@ -103,6 +103,7 @@
             this.guna2GradientPanel2.Name = "guna2GradientPanel2";
             this.guna2GradientPanel2.Size = new System.Drawing.Size(177, 50);
             this.guna2GradientPanel2.TabIndex = 2;
+            this.guna2GradientPanel2.Click += new System.EventHandler(this.guna2GradientPanel2_Click);
             // 
             // label1
             // 
@@ -137,6 +138,7 @@
             this.homePanel.Name = "homePanel";
             this.homePanel.Size = new System.Drawing.Size(177, 50);
             this.homePanel.TabIndex = 1;
+            this.homePanel.Click += new System.EventHandler(this.homePanel_Click);
             // 
             // homeLbl
             // 

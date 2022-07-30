@@ -61,6 +61,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="HomeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="HomeUC.Designer.cs">
+      <DependentUpon>HomeUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="Product.cs" />
     <Compile Include="ProductUC.cs">
       <SubType>UserControl</SubType>
@@ -75,6 +81,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomeUC.resx">
+      <DependentUpon>HomeUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ProductUC.resx">
       <DependentUpon>ProductUC.cs</DependentUpon>
